@@ -92,3 +92,21 @@ console.log(resultadoSoma); // Saída: 8
 const numero = 4;
 const resultadoPar = ehPar(numero);
 console.log(resultadoPar); // Saída: true
+
+// function declaration
+function isValidDeclaration() {
+  const Soma = 1 + 2;
+  if (Soma === 3) {
+    return true; // retornará true 3===3
+  }
+  return false;
+}
+
+// function expression
+const isValidExpression = function () {
+  return false;
+};
+
+// Arrow function
+const isValidArrow = () => 5 * 9;
+console.log(isValidArrow()); //retorna 45
