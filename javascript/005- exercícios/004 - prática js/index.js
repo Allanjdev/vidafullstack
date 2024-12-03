@@ -104,6 +104,7 @@ const res = ehPalindromo(palavra);
 console.log(res); // Saída: false
 
 /*
+Explicação:
 A função ehPalindromo verifica se uma string é um palíndromo, ignorando espaços e considerando letras maiúsculas e minúsculas como iguais.
 A string é invertida e comparada com a string original. Se forem iguais, a string é um palíndromo.
 */
@@ -124,3 +125,10 @@ function contarVogais(texto) {
 const texto = "Olá, mundo!";
 const re = contarVogais(texto);
 console.log(re); // Saída: 4
+
+/*
+Explicação:
+A função contarVogais percorre cada caractere da string e verifica se ele é uma vogal.
+O método includes é utilizado para verificar se um caractere está presente na string de vogais.
+Um contador é incrementado a cada vogal encontrada.
+*/
